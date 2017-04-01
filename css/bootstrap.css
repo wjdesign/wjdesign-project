@@ -4200,7 +4200,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: #b3e0df;
+  background-color: #14afab;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -4430,7 +4430,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #7be8e1;
+  border-color: #54d0c8;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
