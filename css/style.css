@@ -1070,7 +1070,7 @@ button.btn1:hover{
 	    padding: 6em 1em 0;
 	}
 	.w3l-about-img {
-		background: url(../images/2.jpg) no-repeat 0px -60px;
+		background: url(../images/about-s.jpg) no-repeat 0px -60px;
 		background-size: cover;
 	}
 	.agile-news-img {
@@ -1231,7 +1231,7 @@ button.btn1:hover{
 		width: 70%;
 	}
 	.w3l-about-img {
-		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background: url(../images/about-s.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.agile-b-wrapper i.fa.fa-search-plus {
