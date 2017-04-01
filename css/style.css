@@ -394,7 +394,6 @@ body{
     text-decoration: none;
     margin: 1em 0;
     text-transform: uppercase;
-    font-weight: 600;
     line-height: 1.8em;
 }
 .w3l-about-left p,.w3l-about-right p{
@@ -440,7 +439,7 @@ body{
 }
 .modal-header h4 {
     font-size: 2em;
-    color: #212121;
+    color: #2c7577;
     text-decoration: none;
     font-weight: 700;
     font-family: 'Josefin Sans', sans-serif;
@@ -451,6 +450,7 @@ body{
     font-size: .875em;
     color: #999999;
     line-height: 1.8em;
+    padding-bottom: 20px;
 }
 /*-- //modal --*/
 /*-- services --*/
@@ -474,8 +474,8 @@ body{
     background: #FFFFFF;
     text-align: center;
 }
-.wthree-services-info i.fa.fa-money,.wthree-services-info i.fa.fa-comment-o,.wthree-services-info i.fa.fa-scissors,.wthree-services-info i.fa.fa-thumbs-o-up,.wthree-services-info i.fa.fa-bell-o,.wthree-services-info i.fa.fa-sun-o,.wthree-services-info i.fa.fa-credit-card,.wthree-services-info i.fa.fa-bullhorn{
-	color: #212121;
+.wthree-services-info i.fa.fa-sticky-note,.wthree-services-info i.fa.fa-print,.wthree-services-info i.fa.fa-file-code-o,.wthree-services-info i.fa.fa-trello,.wthree-services-info i.fa.fa-steam,.wthree-services-info i.fa.fa-newspaper-o,.wthree-services-info i.fa.fa-outdent,.wthree-services-info i.fa.fa-plus-square{
+    color: #2c7577;
     font-size: 3em;
 }
 .wthree-services-info h4{
@@ -487,7 +487,7 @@ body{
 .w3ls-border{
     width: 30%;
     margin: 1em auto 0;
-    border: double 4px #000;
+    border: double 4px #2c7577;
 }
 .wthree-services-captn {
 	height: 100%;
@@ -923,9 +923,9 @@ button.btn1{
     -ms-transition: 0.5s all;
 }
 button.btn1:hover{
-    border: solid 1px #F44336;
+    border: solid 1px #009066;
     color: #FFFFFF;
-    background: #F44336;
+    background: #3eacaf;
 }
 .w3agile-map {
     margin: 4em 0 0 0;
