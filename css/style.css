@@ -1379,7 +1379,8 @@ button.btn1:hover{
 		width: 80%;
 	}
 	.flip-container, .back {
-		height: 448px;
+		height: 390px;
+    		width: 255px;
 	}
 }
 @media(max-width:320px){
