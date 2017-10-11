@@ -827,6 +827,34 @@ body{
 .contact{
     background: #f2fbfa;
 }
+.contact-pop {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+    text-align: center;
+    background: #3eacaf;
+    border-radius: 5px;
+    border: 1px solid #3eacaf;
+    color: #fff;
+    text-decoration: none;
+}
+.contact-pop:hover {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #3eacaf;
+    color: #2c878a;
+    text-decoration: none;
+}
 .w3layouts-contact-form-top h3,.contact-form-top h3,.w3agile-map h3{
     color: #212121;
     font-size: 1em;
