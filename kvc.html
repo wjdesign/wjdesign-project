@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta name="google-site-verification" content="gLCAsUu86RoTsFHAsfUVP_D6Gh4p2AbcOBNcEyYFcns" /> <!--GOOGLE搜尋引擎驗證-->
+	<title>高雄市社會局志願服務中心 - 版型layout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="WJDesign個人接案工作室,WJDesign,WJ Design,Design,WJ" />
+
+	<link rel="shortcut icon" href="images/WJico.ico">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="kvc/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h2>高雄市社會局志願服務中心 - 活潑風格<i class="fa fa-angle-down"></i></h2>
+		</div>
+		<div class="content">
+			<img src="kvc/images/A01.jpg?v=20171024" alt="">
+			<img src="kvc/images/A02.jpg?v=20171024" alt="">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="title">
+			<h2>高雄市社會局志願服務中心 - 文青風格<i class="fa fa-angle-down"></i></h2>
+		</div>
+		<div class="content">
+			<img src="kvc/images/B01.jpg?v=20171024" alt="">
+			<img src="kvc/images/B02.jpg?v=20171024" alt="">
+		</div>
+	</div>
+
+
+
+	<script>
+		$(function () {
+			$(".container .title").click(function () {
+				$(this).find("i").toggleClass("fa-angle-up fa-angle-down");
+				$(this).parent().find(".content").slideToggle(500);
+			})
+		})
+	</script>
+
+</body>	
+</html>
